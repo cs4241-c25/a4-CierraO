@@ -27,6 +27,7 @@ export default defineConfig({
     proxy: {
       '/api': 'https://a4-cierrao-api.onrender.com',
       '/auth': 'https://a4-cierrao-api.onrender.com'
-    }
+    },
+    allowedHosts: ['https://a4-cierrao-api.onrender.com', 'https://a4-cierrao.onrender.com']
   }
 });
