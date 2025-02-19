@@ -1,6 +1,6 @@
 ## A4 FRC Scouting App
 
-https://a4-cierrao.glitch.me
+https://a4-cierrao.vercel.app/
 
 This is a form for scouting matches in the 2025 FRC game, Reefscape. The goal is to record information about various teams'
   performance in each match of the game.

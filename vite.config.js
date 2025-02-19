@@ -25,8 +25,8 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      '/api': 'https://a4-cierrao-api.glitch.me',
-      '/auth': 'https://a4-cierrao-api.glitch.me'
+      '/api': 'https://a4-cierrao-api.onrender.com',
+      '/auth': 'https://a4-cierrao-api.onrender.com'
     }
   }
 });
