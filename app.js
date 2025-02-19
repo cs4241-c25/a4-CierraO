@@ -52,7 +52,7 @@ async function run() {
     passport.use(new GitHubStrategy({
         clientID: 'Ov23lidbNxNLSF47UQMc',
         clientSecret: 'f6a7b2205d90ed32452143f83241820e7329f487',
-        callbackURL: "http://localhost:5173/auth/github/callback"
+        callbackURL: "https://a4-cierrao.glitch.me/auth/github/callback"
       },
       async function(accessToken, refreshToken, profile, cb) {
         await users.findOneAndUpdate(

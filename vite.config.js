@@ -25,8 +25,8 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      '/api': 'http://localhost:3000',
-      '/auth': 'http://localhost:3000'
+      '/api': 'https://a4-cierrao-api.glitch.me',
+      '/auth': 'https://a4-cierrao-api.glitch.me'
     }
   }
 });
